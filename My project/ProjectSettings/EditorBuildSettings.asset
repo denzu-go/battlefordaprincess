@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Play.unity
+    path: Assets/Scenes/Scenes/Intro.unity
+    guid: 68616ef5224fde64c9c59e8f0914439c
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Play.unity
     guid: 3951f840fc809ef498fb76e2777f7bde
+  - enabled: 1
+    path: Assets/Scenes/Scenes/P1InputNameHealth.unity
+    guid: 8fe052b3043bf3d4ca08282f14a8579a
+  - enabled: 1
+    path: Assets/Scenes/Scenes/P2InputNameHealth.unity
+    guid: 26703b7305ecca84cbcdf2c95f8871ea
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 173d641229828c04db8fcd94281d8e88
