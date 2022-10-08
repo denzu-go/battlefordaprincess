@@ -610,7 +610,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 329986159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1816844328}
+        m_TargetAssemblyTypeName: P2attacks, Assembly-CSharp
+        m_MethodName: LKick2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &329986159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,7 +1293,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 643891235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1816844328}
+        m_TargetAssemblyTypeName: P2attacks, Assembly-CSharp
+        m_MethodName: HPunch2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &643891235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1330,6 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709523551}
   - component: {fileID: 709523552}
+  - component: {fileID: 709523553}
   m_Layer: 0
   m_Name: 'Attack buttons P2 '
   m_TagString: Untagged
@@ -1367,6 +1392,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b483e8ee640cfc048941fe43d2012a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &709523553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709523550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79dc60845fe175429764055d075702b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &740431608
@@ -1536,7 +1573,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 804444504}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1816844328}
+        m_TargetAssemblyTypeName: P2attacks, Assembly-CSharp
+        m_MethodName: HKick2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &804444504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1658,7 +1707,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 845579848}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1816844328}
+        m_TargetAssemblyTypeName: P2attacks, Assembly-CSharp
+        m_MethodName: Special2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &845579848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1915,22 +1976,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1816844328}
+        m_TargetAssemblyTypeName: P2attacks, Assembly-CSharp
+        m_MethodName: LPunch2
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2929,6 +2978,7 @@ GameObject:
   - component: {fileID: 1816844324}
   - component: {fileID: 1816844323}
   - component: {fileID: 1816844327}
+  - component: {fileID: 1816844328}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3032,6 +3082,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c3289f99a9afb9489b7284a677f05fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1816844328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816844322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79dc60845fe175429764055d075702b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1842006746

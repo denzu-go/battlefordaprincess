@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P1 ATK SCENES/Special.unity
     guid: c09e1601eb9010e40aa5f5453fbe1c8c
+  - enabled: 1
+    path: Assets/Scenes/P2 ATK SCENES/P2LowPunch.unity
+    guid: 36710579356f7f347b5b0138367c8fe2
+  - enabled: 1
+    path: Assets/Scenes/P2 ATK SCENES/P2HighPunch.unity
+    guid: f82d5eb8e4328754b97bf6f95f5dfa2a
+  - enabled: 1
+    path: Assets/Scenes/P2 ATK SCENES/P2LowKick.unity
+    guid: a2b44691a2c77d64a9c35b33fb002d31
+  - enabled: 1
+    path: Assets/Scenes/P2 ATK SCENES/P2HighKick.unity
+    guid: a22646d65b0803c48a80161ad4f4bc87
+  - enabled: 1
+    path: Assets/Scenes/P2 ATK SCENES/P2Special.unity
+    guid: b7ebb6c2375331742a59709f4c82e0d3
   m_configObjects: {}
